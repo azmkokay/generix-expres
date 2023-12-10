@@ -1,4 +1,3 @@
-import React from "react";
 import Styles from "./about.module.css";
 import Link from "next/link";
 
