@@ -1,0 +1,20 @@
+{
+  "routers": [
+    {
+      "src": "/",
+      "dest": "/"
+    },
+    {
+      "src": "/About",
+      "dest": "/"
+    },
+    {
+      "src": "/Team",
+      "dest": "/"
+    },
+    {
+      "src": "/Service",
+      "dest": "/"
+    }
+  ]
+}
