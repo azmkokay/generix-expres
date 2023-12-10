@@ -26,9 +26,7 @@ export default function About() {
               We, at Generix Express, are dedicated to ensuring your safety and
               comfort when exporting goods from within the country to overseas.
               Established since 1989, we bring extensive experience in managing
-              your shipments until they reach their intended recipients. Your
-              trust is our foremost priority, and we are committed to providing
-              top-notch services for customer satisfaction
+              your shipments until they reach their intended recipients.
             </p>
           </div>
         </section>
@@ -77,10 +75,10 @@ export default function About() {
         <section>
           <div className={Styles.aboutcontact}>
             <h1>
-              Make sure you choose the right expidition sevices for your
+              Make sure you choose the right expedition services for your
               delivery
             </h1>
-            <a href="">Contack Us</a>
+            <a href="">Contact Us</a>
           </div>
         </section>
         <footer className={Styles.containerFooter}>

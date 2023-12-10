@@ -868,6 +868,7 @@
 .iconFooter img{
   height: 3.5rem;
   transition: transform 0.3s ease;
+  filter: invert(25%);
 }
 
 .iconFooter img:link,

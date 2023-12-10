@@ -147,7 +147,7 @@ export default function Home() {
                 handling of your cargo, providing peace of mind throughout the
                 shipping process. We prioritize the safety and efficiency of
                 your shipments, ensuring a seamless and trustworthy ocean
-                freight experience. 
+                freight experience.
               </p>
             </div>
             <div className={Styles.cardofneed}>
@@ -157,10 +157,10 @@ export default function Home() {
                 With our Air Cargo Services, we accelerate the delivery of your
                 shipments with unmatched speed and efficiency. Our commitment to
                 excellence ensures a swift and reliable option for transporting
-                your valuable cargo. Lorem ipsum dolor sit amet, consectetur
-                adipisicing elit. Esse dolorum veritatis rem magni amet deleniti
-                ullam totam quam repellendus expedita, libero asperiores
-                nostrum, optio animi, in velit culpa et. Id.
+                your valuable cargo. Experience the utmost dedication and
+                proficiency in every step of the process. Our priority is to
+                provide a seamless and efficient service, guaranteeing the swift
+                and secure delivery of your precious cargo.
               </p>
             </div>
             <div className={Styles.cardofneed}>
@@ -168,13 +168,14 @@ export default function Home() {
               <h2>Inland Cargo Services</h2>
               <p>
                 Experience seamless inland logistics with our Inland Cargo
-                Services, offering comprehensive transportation solutions within
-                the country. Lorem ipsum dolor sit amet, consectetur adipisicing
-                elit. Esse dolorum veritatis rem magni amet deleniti ullam totam
-                quam repellendus expedita, libero asperiores nostrum, optio
-                animi, in velit culpa et. Id. Whether transported by road or
-                rail, we guarantee the efficient movement of your goods,
-                ensuring a reliable and timely delivery experience.
+                Services, providing comprehensive transportation solutions
+                within the country. Our commitment to excellence ensures a swift
+                and reliable option for transporting your valuable cargo.
+                Benefit from our dedicated service that prioritizes efficiency
+                and reliability in every aspect of the logistics process.
+                Whether your goods are transported by road or rail, we guarantee
+                the efficient movement of your cargo, ensuring a reliable and
+                timely delivery experience.
               </p>
             </div>
             <div className={Styles.cardofneed}>
@@ -182,12 +183,13 @@ export default function Home() {
               <h2>Heavy Equipment Services</h2>
               <p>
                 Rely on our Heavy Equipment Services for the transportation of
-                large and heavy machinery. Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit. Esse dolorum veritatis rem magni
-                amet deleniti ullam totam quam repellendus expedita, libero
-                asperiores nostrum, optio animi, in velit culpa et. Id. Our
-                specialized team and advanced equipment are specifically
-                tailored to meet the unique challenges posed by heavy cargo. 
+                large and heavy machinery. Our commitment to excellence ensures
+                a reliable and efficient solution for the logistics of
+                substantial cargo. Our specialized team and advanced equipment
+                are specifically tailored to meet the unique challenges posed by
+                heavy cargo. Benefit from our dedicated service that prioritizes
+                efficiency and reliability in every aspect of transporting your
+                valuable machinery.
               </p>
             </div>
             <div className={Styles.cardofneed}>
@@ -195,13 +197,12 @@ export default function Home() {
               <h2>car Shipping Services</h2>
               <p>
                 Enjoy a hassle-free car shipping experience with our dedicated
-                Car Shipping Services. Lorem ipsum dolor sit amet, consectetur
-                adipisicing elit. Esse dolorum veritatis rem magni amet deleniti
-                ullam totam quam repellendus expedita, libero asperiores
-                nostrum, optio animi, in velit culpa et. Id. Our services are
-                designed to provide efficient and secure transportation for your
-                vehicles, guaranteeing they reach their destination in pristine
-                condition.
+                Car Shipping Services. Our commitment to excellence ensures a
+                smooth and reliable solution for transporting your vehicles.
+                Benefit from our efficient and secure transportation services,
+                guaranteeing that your cars reach their destination in pristine
+                condition. Our services are tailored to provide you with peace
+                of mind throughout the entire car shipping process.
               </p>
             </div>
             <div className={Styles.cardofneed}>
@@ -209,13 +210,14 @@ export default function Home() {
               <h2>Container Sea Cargo</h2>
               <p>
                 Choose our Container Sea Cargo services for efficient and
-                organized shipping in standardized containers. Lorem ipsum dolor
-                sit amet, consectetur adipisicing elit. Esse dolorum veritatis
-                rem magni amet deleniti ullam totam quam repellendus expedita,
-                libero asperiores nostrum, optio animi, in velit culpa et. Id.
-                Our containerized sea cargo solutions are designed to streamline
-                the shipping process, providing a secure and cost-effective way
-                to transport goods internationally. 
+                organized shipping in standardized containers. Our commitment to
+                excellence ensures a streamlined and reliable solution for
+                transporting your goods internationally. Benefit from our
+                containerized sea cargo solutions designed to enhance the
+                shipping process, providing a secure and cost-effective way to
+                transport goods. We prioritize efficiency and security, offering
+                you a hassle-free and reliable experience in shipping your
+                cargo.
               </p>
             </div>
           </div>
@@ -224,7 +226,7 @@ export default function Home() {
       <section className={Styles.bannerpeta}>
         <div className={Styles.peta}>
           <p>Industry Knowledge</p>
-          <h1>Powering inovation across industries, globally.</h1>
+          <h1>Powering innovation across industries, globally.</h1>
         </div>
         <div className={Styles.imgandtextpeta}>
           <div className={Styles.imgpeta}>
@@ -235,7 +237,7 @@ export default function Home() {
               <div className={Styles.petatextbwh}>
                 <h2>$5b+</h2>
                 <h3>Equity Value</h3>
-                <p>More than $5b USD in equaly value created</p>
+                <p>More than $5b USD in equal value created</p>
               </div>
             </div>
             <div className={Styles.itempeta}>
@@ -243,7 +245,7 @@ export default function Home() {
                 <h2>932</h2>
                 <h3>Ventures</h3>
                 <p>
-                  We've built, invested in and accelerated hundres of venturan,
+                  We've built, invested in and accelerated hundreds of venturan,
                   globally
                 </p>
               </div>
@@ -253,8 +255,8 @@ export default function Home() {
                 <h2>81%</h2>
                 <h3>Successfull Pilots</h3>
                 <p>
-                  We have facilitated hundres of pilots netwath componentes and
-                  startup with an unmethed success rate
+                  We have facilitated hundreds of pilots netwath componentes and
+                  startup with an unmatched success rate
                 </p>
               </div>
             </div>
