@@ -1,0 +1,1018 @@
+
+
+/*******************/
+/*hero-anout */
+/******************/
+
+.banerheroabout {
+  background-image: url("./image/aerial-view-container-cargo-ship-sea.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.heroservice {
+  display: flex;
+  height: 63rem;
+  padding: 0 5rem;
+  gap: 3.2rem;
+}
+
+.heroservice h1 {
+  margin: 35rem 0 0 5rem;
+  font-size: 5rem;
+  color: white;
+}
+
+.heroservice p {
+  margin: 38rem 3.2rem 0 0;
+  font-size: 1.5rem;
+  /* width: 750px; */
+  color: white;
+  line-height: 1.9rem;
+  /* width: 900px; */
+}
+
+/*******************/
+/* number */
+/******************/
+.numberservice {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+  justify-self: center;
+  padding: 1.2rem 250px;
+  margin: 5rem 0;
+}
+
+.numberservice div h2 {
+  font-size: 3.2rem;
+  border-bottom: solid;
+  text-align: center;
+  padding-bottom: 1.2rem;
+}
+
+.numberservice div p {
+  text-align: center;
+  padding-top: 1.2rem;
+  font-size: 1.2rem;
+}
+
+/*******************/
+/* about icon */
+/******************/
+
+.infoabout {
+  margin: 8rem 0;
+  padding: 0 20rem;
+}
+
+.infoabout h1 {
+  font-size: 2.4rem;
+}
+
+.cardofabout {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-self: center;
+  gap: 3.2rem;
+  margin: 3.2rem 0;
+}
+
+.cardabout {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 3.2rem;
+}
+
+.cardabout img {
+  /* margin: 3.2rem 0; */
+  max-width: 3rem;
+}
+
+.cardabout p {
+  font-size: 2.4rem;
+  margin: 2.4rem 0;
+  font-weight: 500;
+}
+
+.cardabout a {
+  font-size: 1rem;
+  text-align: end;
+  color: black;
+}
+
+.cardabout a:hover,
+.cardabout a:active{
+color: grey;
+}
+
+/*******************/
+/* about contact */
+/******************/
+.aboutcontact {
+  padding: 0 20rem;
+  margin-bottom: 6rem;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+}
+
+.aboutcontact h1 {
+  font-size: 3.2rem;
+  /* margin: 0 3.2rem; */
+}
+
+.aboutcontact a {
+  /* display: inline-block; */
+  padding: 15px 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  color: #ffffff; /* Warna teks */
+  background-color: #ff0000; /* Warna latar belakang */
+  border-radius: 5px; /* Sudut melengkung pada sudut tombol */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/**************************/
+/*todo BELOW 1344px (Smaller desktops) */
+/**************************/
+@media (max-width: 84em) {
+  /*******************/
+  /*hero-anout */
+  /******************/
+
+  .banerheroabout {
+    /* background-image: url("./img/aerial-view-container-cargo-ship-sea.jpg"); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .heroservice {
+    display: flex;
+    height: 63rem;
+    padding: 0 5rem;
+    gap: 3.2rem;
+  }
+
+  .heroservice h1 {
+    margin: 35rem 0 0 5rem;
+    font-size: 5rem;
+    color: white;
+  }
+
+  .heroservice p {
+    margin: 38rem 3.2rem 0 0;
+    font-size: 1.3rem;
+    /* width: 750px; */
+    color: white;
+    line-height: 1.5rem;
+    /* width: 900px; */
+  }
+
+  /*******************/
+  /* number */
+  /******************/
+  .numberservice {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+    justify-self: center;
+    padding: 1.2rem 250px;
+    margin: 5rem 0;
+  }
+
+  .numberservice div h2 {
+    font-size: 3.2rem;
+    border-bottom: solid;
+    text-align: center;
+    padding-bottom: 1.2rem;
+  }
+
+  .numberservice div p {
+    text-align: center;
+    padding-top: 1.2rem;
+    font-size: 1.2rem;
+  }
+
+  /*******************/
+  /* about icon */
+  /******************/
+
+  .infoabout {
+    margin: 8rem 0;
+    padding: 0 5rem;
+  }
+
+  .infoabout h1 {
+    font-size: 2.4rem;
+  }
+
+  .cardofabout {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-self: center;
+    gap: 3.2rem;
+    margin: 3.2rem 0;
+  }
+
+  .cardabout {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 3.2rem;
+  }
+
+  .cardabout img {
+    /* margin: 3.2rem 0; */
+    max-width: 3rem;
+  }
+
+  .cardabout p {
+    font-size: 2.4rem;
+    margin: 2.4rem 0;
+    font-weight: 500;
+  }
+
+  .cardabout a {
+    font-size: 1rem;
+    text-align: end;
+  }
+
+  /*******************/
+  /* about contact */
+  /******************/
+  .aboutcontact {
+    padding: 0 5rem;
+    margin-bottom: 6rem;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+  }
+
+  .aboutcontact h1 {
+    font-size: 2.4rem;
+    /* margin: 0 3.2rem; */
+  }
+
+  .aboutcontact a {
+    /* display: inline-block; */
+    padding: 15px 10px;
+    font-size: 1.2rempx;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffffff; /* Warna teks */
+    background-color: #ff0000; /* Warna latar belakang */
+    border-radius: 5px; /* Sudut melengkung pada sudut tombol */
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+}
+
+/**************************/
+/*todo BELOW 1200px (Landscape Tablets) */
+/* ************************ 1345 */
+@media (max-width: 75em) {
+  /*******************/
+  /*hero-anout */
+  /******************/
+
+  .banerheroabout {
+    /* background-image: url("./img/aerial-view-container-cargo-ship-sea.jpg"); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .heroservice {
+    display: flex;
+    height: 63rem;
+    padding: 0 5rem;
+    gap: 3.2rem;
+  }
+
+  .heroservice h1 {
+    margin: 35rem 0 0 5rem;
+    font-size: 4rem;
+    color: white;
+  }
+
+  .heroservice p {
+    margin: 38rem 3.2rem 0 0;
+    font-size: 1.3rem;
+    /* width: 750px; */
+    color: white;
+    line-height: 1.5rem;
+    /* width: 900px; */
+  }
+
+  /*******************/
+  /* number */
+  /******************/
+  .numberservice {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+    justify-self: center;
+    padding: 1.2rem 250px;
+    margin: 5rem 0;
+  }
+
+  .numberservice div h2 {
+    font-size: 3.2rem;
+    border-bottom: solid;
+    text-align: center;
+    padding-bottom: 1.2rem;
+  }
+
+  .numberservice div p {
+    text-align: center;
+    padding-top: 1.2rem;
+    font-size: 1.2rem;
+  }
+
+  /*******************/
+  /* about icon */
+  /******************/
+
+  .infoabout {
+    margin: 8rem 0;
+    padding: 0 5rem;
+  }
+
+  .infoabout h1 {
+    font-size: 2.4rem;
+  }
+
+  .cardofabout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-self: center;
+    gap: 3.2rem;
+    margin: 3.2rem 0;
+  }
+
+  .cardabout {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 3.2rem;
+  }
+
+  .cardabout img {
+    /* margin: 3.2rem 0; */
+    max-width: 3rem;
+  }
+
+  .cardabout p {
+    font-size: 2.4rem;
+    margin: 2.4rem 0;
+    font-weight: 500;
+  }
+
+  .cardabout a {
+    font-size: 1rem;
+    text-align: end;
+  }
+
+  /*******************/
+  /* about contact */
+  /******************/
+  .aboutcontact {
+    padding: 0 5rem;
+    margin-bottom: 6rem;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+  }
+
+  .aboutcontact h1 {
+    font-size: 2.4rem;
+    /* margin: 0 3.2rem; */
+  }
+
+  .aboutcontact a {
+    /* display: inline-block; */
+    padding: 15px 10px;
+    font-size: 1.2rempx;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffffff; /* Warna teks */
+    background-color: #ff0000; /* Warna latar belakang */
+    border-radius: 5px; /* Sudut melengkung pada sudut tombol */
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+}
+
+/**************************/
+/*todo BELOW 944px (Tablets) */
+/************************** 945*/
+@media (max-width: 59em) {
+  /*******************/
+  /*hero-anout */
+  /******************/
+
+  .banerheroabout {
+    /* background-image: url("./img/aerial-view-container-cargo-ship-sea.jpg"); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .heroservice {
+    display: flex;
+    flex-direction: column;
+    height: 63rem;
+    padding: 0 5rem;
+    gap: 3.2rem;
+  }
+
+  .heroservice h1 {
+    margin: 35rem 0 0 0rem;
+    font-size: 4rem;
+    color: white;
+  }
+
+  .heroservice p {
+    margin: 2rem 3.2rem 0 0;
+    font-size: 1.3rem;
+    /* width: 750px; */
+    color: white;
+    line-height: 1.5rem;
+    /* width: 900px; */
+  }
+
+  /*******************/
+  /* number */
+  /******************/
+  .numberservice {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5rem;
+    justify-self: center;
+    padding: 1.2rem 250px;
+    margin: 5rem 0;
+  }
+
+  .numberservice div h2 {
+    font-size: 3.2rem;
+    border-bottom: solid;
+    text-align: center;
+    padding-bottom: 1.2rem;
+  }
+
+  .numberservice div p {
+    text-align: center;
+    padding-top: 1.2rem;
+    font-size: 1.2rem;
+  }
+
+  /*******************/
+  /* about icon */
+  /******************/
+
+  .infoabout {
+    margin: 8rem 0;
+    padding: 0 5rem;
+  }
+
+  .infoabout h1 {
+    font-size: 2.4rem;
+  }
+
+  .cardofabout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-self: center;
+    gap: 3.2rem;
+    margin: 3.2rem 0;
+  }
+
+  .cardabout {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 3.2rem;
+  }
+
+  .cardabout img {
+    /* margin: 3.2rem 0; */
+    max-width: 3rem;
+  }
+
+  .cardabout p {
+    font-size: 2.4rem;
+    margin: 2.4rem 0;
+    font-weight: 500;
+  }
+
+  .cardabout a {
+    font-size: 1rem;
+    text-align: end;
+  }
+
+  /*******************/
+  /* about contact */
+  /******************/
+  .aboutcontact {
+    padding: 0 5rem;
+    margin-bottom: 6rem;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+  }
+
+  .aboutcontact h1 {
+    font-size: 2.4rem;
+    /* margin: 0 3.2rem; */
+  }
+
+  .aboutcontact a {
+    /* display: inline-block; */
+    padding: 15px 10px;
+    font-size: 1.2rempx;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffffff; /* Warna teks */
+    background-color: #ff0000; /* Warna latar belakang */
+    border-radius: 5px; /* Sudut melengkung pada sudut tombol */
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+}
+
+/* ************************
+    /*todo BELOW 704px (Smaller tablets) */
+/************************* 704 */
+@media (max-width: 44em) {
+  /*******************/
+  /*hero-anout */
+  /******************/
+
+  .banerheroabout {
+    /* background-image: url("./img/aerial-view-container-cargo-ship-sea.jpg"); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .heroservice {
+    display: flex;
+    flex-direction: column;
+    height: 63rem;
+    padding: 0 5rem;
+    gap: 3.2rem;
+  }
+
+  .heroservice h1 {
+    margin: 35rem 0 0 0rem;
+    font-size: 4rem;
+    color: white;
+  }
+
+  .heroservice p {
+    margin: 2rem 3.2rem 0 0;
+    font-size: 1.3rem;
+    /* width: 750px; */
+    color: white;
+    line-height: 1.5rem;
+    /* width: 900px; */
+  }
+
+  /*******************/
+  /* number */
+  /******************/
+  .numberservice {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5rem;
+    justify-self: center;
+    padding: 1.2rem 5rem;
+    margin: 5rem;
+  }
+
+  .numberservice div h2 {
+    font-size: 3.2rem;
+    border-bottom: solid;
+    text-align: center;
+    padding-bottom: 1.2rem;
+  }
+
+  .numberservice div p {
+    text-align: center;
+    padding-top: 1.2rem;
+    font-size: 1.2rem;
+  }
+
+  /*******************/
+  /* about icon */
+  /******************/
+
+  .infoabout {
+    margin: 8rem 0;
+    padding: 0 5rem;
+  }
+
+  .infoabout h1 {
+    font-size: 2.4rem;
+  }
+
+  .cardofabout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-self: center;
+    gap: 3.2rem;
+    margin: 3.2rem 0;
+  }
+
+  .cardabout {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 3.2rem;
+  }
+
+  .cardabout img {
+    /* margin: 3.2rem 0; */
+    max-width: 3rem;
+  }
+
+  .cardabout p {
+    font-size: 2.4rem;
+    margin: 2.4rem 0;
+    font-weight: 500;
+  }
+
+  .cardabout a {
+    font-size: 1rem;
+    text-align: end;
+  }
+
+  /*******************/
+  /* about contact */
+  /******************/
+  .aboutcontact {
+    padding: 0 5rem;
+    margin-bottom: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+    justify-content: space-between;
+  }
+
+  .aboutcontact h1 {
+    font-size: 2.4rem;
+    /* margin: 0 3.2rem; */
+  }
+
+  .aboutcontact a {
+    /* display: inline-block; */
+    padding: 15px 10px;
+    font-size: 1.2rempx;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffffff; /* Warna teks */
+    background-color: #ff0000; /* Warna latar belakang */
+    border-radius: 5px; /* Sudut melengkung pada sudut tombol */
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+}
+
+/**************************/
+/*todo BELOW 544px (Phones) */
+/**************************/
+@media screen and (max-width: 34em) {
+  /*******************/
+  /*hero-anout */
+  /******************/
+
+  .banerherobout {
+    /* background-image: url("./img/aerial-view-container-cargo-ship-sea.jpg"); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .heroservice {
+    display: flex;
+    flex-direction: column;
+    height: 63rem;
+    padding: 0 5rem;
+    gap: 3.2rem;
+  }
+
+  .heroservice h1 {
+    margin: 35rem 0 0 0rem;
+    font-size: 3rem;
+    color: white;
+  }
+
+  .heroservice p {
+    margin: 2rem 3.2rem 0 0;
+    font-size: 1.2rem;
+    /* width: 750px; */
+    color: white;
+    line-height: 1.5rem;
+    /* width: 900px; */
+  }
+
+  /*******************/
+  /* number */
+  /******************/
+  .numberservice {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5rem;
+    justify-self: center;
+    padding: 1.2rem 2.4rem;
+    margin: 5rem 5rem;
+  }
+
+  .numberservice div h2 {
+    font-size: 3.2rem;
+    border-bottom: solid;
+    text-align: center;
+    padding-bottom: 1.2rem;
+  }
+
+  .numberservice div p {
+    text-align: center;
+    padding-top: 1.2rem;
+    font-size: 1.2rem;
+  }
+
+  /*******************/
+  /* about icon */
+  /******************/
+
+  .infoabout {
+    margin: 8rem 0;
+    padding: 0 5rem;
+  }
+
+  .infoabout h1 {
+    font-size: 2.4rem;
+  }
+
+  .cardofabout {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-self: center;
+    gap: 3.2rem;
+    margin: 3.2rem 0;
+  }
+
+  .cardabout {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 3.2rem;
+  }
+
+  .cardabout img {
+    /* margin: 3.2rem 0; */
+    max-width: 3rem;
+  }
+
+  .cardabout p {
+    font-size: 2.4rem;
+    margin: 2.4rem 0;
+    font-weight: 500;
+  }
+
+  .cardabout a {
+    font-size: 1rem;
+    text-align: end;
+  }
+
+  /*******************/
+  /* about contact */
+  /******************/
+  .aboutcontact {
+    padding: 0 5rem;
+    margin-bottom: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+    justify-content: space-between;
+  }
+
+  .aboutcontact h1 {
+    font-size: 2.4rem;
+    /* margin: 0 3.2rem; */
+  }
+
+  .aboutcontact a {
+    /* display: inline-block; */
+    padding: 15px 10px;
+    font-size: 1.2rempx;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: #ffffff; /* Warna teks */
+    background-color: #ff0000; /* Warna latar belakang */
+    border-radius: 5px; /* Sudut melengkung pada sudut tombol */
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+}
+
+
+/************************************************/
+
+/***********************************/
+/* HEader */
+/***********************************/
+
+.containerNavbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2.4rem 5rem 2rem 5rem;
+  /* margin: 1.2rem 0 1.2rem 0; */
+  background-color: white;
+}
+
+.logoImg img {
+  width: 20rem;
+}
+
+.linkNav {
+  display: flex;
+  gap: 3.2rem;
+  /* margin-top: 0.5rem; */
+}
+
+.linkNav a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin-top: 1.2rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #7db6f9;
+}
+
+.linkNav a:link,
+.linkNav a:visited {
+  color: #7db6f9;
+}
+
+.linkNav a:hover,
+.linkNav a:active {
+  color: #56a2fa;
+  text-decoration: underline;
+}
+
+.btnNav {
+  margin-top: 1.2rem;
+}
+
+.btnNav a {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.btnNav a:hover,
+.btnNav a:active {
+  background: linear-gradient(45deg, #00dfe5, #5f3beebe);
+  /* -webkit-background-clip: text; */
+  /* -webkit-text-fill-color: transparent; */
+}
+
+.btnNav a:link,
+.btnNav a:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #fff;
+  background-image: linear-gradient(45deg, #00dfe5, #5f3bee);
+}
+
+.btnNav a:hover,
+.btnNav a:active {
+  background-image: linear-gradient(45deg, #00dde5b9, #5f3beebe);
+}
+
+/***********************************/
+/* Footer */
+/***********************************/
+
+.containerFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2.4rem;
+    background-color: white;
+    padding: 3.2rem 5rem;
+}
+
+.imgFooter img{
+    height: 5rem;
+}
+
+.linkFooter{
+    display: flex;
+    gap: 3.2rem;
+    margin-top: 1.2rem;  
+}
+
+.linkFooter a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    
+}
+
+.linkFooter a:link,
+.linkFooter a:visited {
+  color: #7db6f9;
+}
+
+.linkFooter a:hover,
+.linkFooter a:active {
+  color: #56a2fa;
+  text-decoration: underline;
+}
+
+.iconFooter{
+    display: flex;
+    gap: 3.2rem;
+}
+
+.iconFooter img{
+    height: 3.5rem;
+}
+
+/**************************/
+/*todo BELOW 1344px (Smaller desktops) */
+/**************************/
+@media (max-width: 84em) {
+   
+}
+
+/**************************/
+/*todo BELOW 1200px (Landscape Tablets) */
+/* ************************ 1345 */
+@media (max-width: 75em) {
+  
+}
+
+/**************************/
+/*todo BELOW 944px (Tablets) */
+/************************** 945*/
+@media (max-width: 59em) {
+  .containerFooter{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 2.4rem;
+      background-color: white;
+      padding: 3.2rem 0;
+      align-items: center;
+  }
+}
+
+/* ************************
+  /*todo BELOW 704px (Smaller tablets) */
+/************************* 704 */
+@media (max-width: 44em) {
+  .containerFooter{
+   
+    align-items: center;
+}
+  .logoImg{
+     display: none;
+  }
+  .containerNavbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btnNav {
+      margin-bottom: 1.2rem;
+      display: none;
+  }
+}
+
+/**************************/
+/*todo BELOW 544px (Phones) */
+/**************************/
+@media screen and (max-width: 34em) {
+  .containerFooter{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+}
+  .btnNav{
+      display: none;
+  }
+  .iconFooter{
+      display: flex;
+      gap: 1.2rem;
+  }
+}

@@ -1,0 +1,1107 @@
+.undecor {
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  /* 1140px */
+  max-width: 200rem;
+  /* padding: 0 auto; */
+  margin: 0 auto;
+  /* width: 100%; */
+}
+
+/**************************/
+/*! button */
+/**************************/
+
+.mainnavlist {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.mainnavlink:link,
+.mainnavlink:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+.mainnavlink:hover,
+.mainnavlink:active {
+  background: linear-gradient(45deg, #00dfe5, #5f3beebe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.mainnavlink.navcta:link,
+.mainnavlink.navcta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #fff;
+  background-image: linear-gradient(45deg, #00dfe5, #5f3bee);
+  box-shadow: 0 1.2rem 2.4rem rgba(0, 0, 0, 0.2);
+}
+
+.mainnavlink.navcta:hover,
+.mainnavlink.navcta:active {
+  background-image: linear-gradient(45deg, #00dde5b9, #5f3beebe);
+}
+
+.btnmobilenav {
+  position: relative;
+}
+
+/**************************/
+/*! hero */
+/**************************/
+
+.hero {
+  display: grid;
+  place-items: center;
+  /* margin: 0; */
+  padding: 23rem 15rem 15rem 15rem;
+  gap: 3.2rem;
+  /* background-color: #f5fcff; */
+  grid-template-columns: repeat(2, 1fr);
+  /* padding: 4.8rem 0 9.6rem 0; */
+}
+
+.heroleft p {
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  word-spacing: 0.2rem;
+}
+
+.heroleft h1 {
+  font-size: 6.4rem;
+  padding: 1.2rem 0 3.2rem 0;
+}
+
+.heroright img {
+  overflow: hidden;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  max-height: 50rem;
+  max-width: 100%;
+}
+
+.strong {
+  background: linear-gradient(45deg, #00dfe5, #5f3beebe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btnhero {
+  margin-top: 3.2rem;
+}
+
+/*******************/
+/* choose */
+/******************/
+.containerchooseus {
+  color: white;
+  background-color: #7db6f9;
+}
+
+.choosecontainer {
+  margin: 0 15rem 12rem 15rem;
+  padding: 6rem 0;
+}
+
+.choosecontainer h1 {
+  font-size: 4.8rem;
+}
+
+.imgchoose {
+  width: 4rem;
+}
+
+.containerchoose-us h1 {
+  font-size: 4.8rem;
+  margin-bottom: 6rem;
+}
+
+.cardchoose img {
+  height: 6.2rem;
+
+  filter: invert(100%);
+}
+
+.cardofchooseus {
+  display: flex;
+  flex-direction: row;
+  gap: 6.4rem;
+  margin: 3.2rem 0;
+}
+
+.cardchoose h2 {
+  font-size: 2.4rem;
+  margin-top: 3.2rem;
+}
+
+.cardchoose p {
+  font-size: 1.4rem;
+  margin-top: 2.4rem;
+  word-spacing: 2px;
+  line-height: 1.1;
+}
+
+.cardchoose div {
+  font-size: 1.2rem;
+  margin-top: 2.4rem;
+}
+
+.mainnavlinkchoose.navctachoose:link,
+.mainnavlinkchoose.navctachoose:visited {
+  padding: 0.6rem 0;
+  color: #ffffff;
+}
+
+.mainnavlinkchoose.navctachoose:hover,
+.mainnavlinkchoose.navctachoose:active {
+  color: #4f6a8a;
+}
+
+/*******************/
+/* 6 icon */
+/******************/
+
+.needtowin {
+  margin: 0 15rem 150px 15rem;
+}
+
+.cardofneedtowin {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6.4rem;
+  margin: 3.2rem 0;
+}
+
+.needtowin h1 {
+  margin-left: 0;
+  font-size: 4.8rem;
+  /* width: 80rem; */
+  margin-bottom: 6rem;
+}
+
+.cardofneed img {
+  height: 6.2rem;
+  width: 6.2rem;
+  padding: 1.6rem;
+  border-radius: 50%;
+  background-color: rgb(236, 236, 236);
+  filter: invert(25%);
+}
+
+.cardofneed h2 {
+  font-size: 2.4rem;
+  margin-top: 1.2rem;
+}
+
+.cardofneed p {
+  font-size: 1.2rem;
+  margin-top: 1.2rem;
+  word-spacing: 2px;
+  line-height: 1.5;
+}
+
+/*******************/
+/* banner-peta */
+/******************/
+
+.bannerpeta {
+  color: white;
+  background-color: #7db6f9;
+  padding: 100px 15rem 100px 15rem;
+}
+
+.peta p {
+  font-size: 1.2rem;
+}
+
+.peta h1 {
+  font-size: 4.8rem;
+}
+
+.imgpeta {
+  padding: 12rem 0;
+  display: flex;
+}
+
+.imgandtextpeta {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgpeta img {
+  width: 100rem;
+  filter: invert(100%);
+}
+
+.petatextbwh {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nilaipeta {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 6.4rem;
+}
+
+.itempeta h2 {
+  font-size: 4.8rem;
+  padding-bottom: 1.2rem;
+  border-bottom: solid 1px;
+  text-align: center;
+  width: 300px;
+}
+
+.itempeta h3 {
+  padding-top: 1.2rem;
+  font-size: 2.4rem;
+  text-align: center;
+  width: 250px;
+}
+
+.itempeta p {
+  font-size: 1.2rem;
+  padding-top: 0.6rem;
+  text-align: center;
+  width: 250px;
+}
+
+/**************************/
+/*todo BELOW 1344px (Smaller desktops) */
+/**************************/
+@media (max-width: 84em) {
+  /**************************/
+  /*! hero */
+  /**************************/
+  .container {
+    max-width: 134.4rem;
+  }
+
+  .hero {
+    padding: 23rem 5rem 15rem 5rem;
+  }
+
+  .heroleft p {
+    font-size: 1.5rem;
+  }
+
+  .heroleft h1 {
+    font-size: 5.8rem;
+  }
+
+  .heroright img {
+    overflow: hidden;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    max-height: 50rem;
+    max-width: 100%;
+  }
+
+  .btnhero {
+    margin-top: 3.2rem;
+  }
+
+  /**************************/
+  /*! about me */
+  /**************************/
+  /*******************/
+  /* choose */
+  /******************/
+  .choosecontainer {
+    margin: 0 5rem 12rem 5rem;
+  }
+
+  .containerchooseus h1 {
+    font-size: 4.8rem;
+  }
+
+  .cardofchooseus {
+    margin: 2.4rem 0;
+  }
+
+  /*******************/
+  /* 6 icon */
+  /******************/
+
+  .needtowin {
+    margin: 50px 5rem 150px 5rem;
+  }
+
+  /*******************/
+  /* banner-peta */
+  /******************/
+
+  .bannerpeta {
+    padding: 100px 5rem 100px 5rem;
+  }
+
+  .imgpeta {
+    padding: 12rem 0;
+    display: flex;
+  }
+
+  .imgpeta img {
+    width: 70rem;
+    filter: invert(100%);
+  }
+
+  .nilaipeta {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 6rem;
+    column-gap: 12rem;
+  }
+}
+
+/**************************/
+/*todo BELOW 1200px (Landscape Tablets) */
+/* ************************ 1345 */
+@media (max-width: 75em) {
+  /**************************/
+  /*! hero */
+  /**************************/
+  .hero {
+    padding: 7rem 5rem 7rem 5rem;
+  }
+
+  .heroleft p {
+    font-size: 1.2rem;
+  }
+
+  .heroleft h1 {
+    font-size: 4rem;
+  }
+
+  /*******************/
+  /* choose */
+  /******************/
+  .choosecontainer {
+    margin: 0 5rem 12rem 5rem;
+  }
+
+  .containerchooseus h1 {
+    font-size: 3.2rem;
+  }
+
+  .cardofchooseus {
+    margin: 2.4rem 0;
+  }
+
+  /*******************/
+  /* 6 icon */
+  /******************/
+
+  .needtowin {
+    margin: 7rem 5rem 12rem 5rem;
+  }
+
+  .needtowin h1 {
+    font-size: 4rem;
+  }
+
+  /*******************/
+  /* banner-peta */
+  /******************/
+
+  .bannerpeta {
+    padding: 7rem 5rem 7rem 5rem;
+  }
+
+  .imgpeta {
+    padding: 12rem 0;
+    display: flex;
+  }
+
+  .imgpeta img {
+    width: 60rem;
+    filter: invert(100%);
+  }
+
+  .peta h1 {
+    font-size: 4rem;
+  }
+
+  .itempeta h2 {
+    font-size: 4rem;
+    padding-bottom: 1.2rem;
+    border-bottom: solid 1px;
+    text-align: center;
+    width: 300px;
+  }
+
+  .itempeta h3 {
+    padding-top: 1.2rem;
+    font-size: 2.4rem;
+    text-align: center;
+    width: 250px;
+  }
+
+  .itempeta p {
+    font-size: 1.2rem;
+    padding-top: 0.6rem;
+    text-align: center;
+    width: 250px;
+  }
+
+  .nilaipeta {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 6rem;
+    column-gap: 12rem;
+  }
+}
+
+/**************************/
+/*todo BELOW 944px (Tablets) */
+/************************** 945*/
+@media (max-width: 59em) {
+  /**************************/
+  /*! hero */
+  /**************************/
+  .hero {
+    display: flex;
+    flex-direction: column-reverse;
+    /* margin: 0; */
+    padding: 7rem 5rem 7rem 5rem;
+    gap: 3.2rem;
+  }
+
+  .heroleft p {
+    font-size: 1.2rem;
+  }
+
+  .heroleft h1 {
+    font-size: 4rem;
+  }
+
+  /*******************/
+  /* choose */
+  /******************/
+  .choosecontainer {
+    margin: 0 5rem 12rem 5rem;
+  }
+
+  .containerchooseus h1 {
+    font-size: 4rem;
+  }
+
+  .cardofchooseus {
+    margin: 2.4rem 0;
+  }
+
+  .cardchoose {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cardchoose p {
+    font-size: 1.5rem;
+    margin-top: 2.4rem;
+    text-align: justify;
+  }
+
+  .angkerchoose a {
+    font-size: 1.5rem;
+  }
+
+  .cardofchooseus {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    gap: 6.4rem;
+    margin: 3.2rem 0;
+  }
+
+  /*******************/
+  /* 6 icon */
+  /******************/
+
+  .cardofneedtowin {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6.4rem;
+    margin: 3.2rem 0;
+  }
+
+  .needtowin {
+    margin: 7rem 5rem 12rem 5rem;
+  }
+
+  .needtowin h1 {
+    font-size: 4rem;
+  }
+
+  /*******************/
+  /* banner-peta */
+  /******************/
+
+  .bannerpeta {
+    padding: 7rem 5rem 7rem 5rem;
+  }
+
+  .imgpeta {
+    padding: 12rem 0;
+    display: flex;
+  }
+
+  .imgpeta img {
+    width: 60rem;
+    filter: invert(100%);
+  }
+
+  .peta h1 {
+    font-size: 4rem;
+  }
+
+  .itempeta h2 {
+    font-size: 4rem;
+    padding-bottom: 1.2rem;
+    border-bottom: solid 1px;
+    text-align: center;
+    width: 300px;
+  }
+
+  .itempeta h3 {
+    padding-top: 1.2rem;
+    font-size: 2.4rem;
+    text-align: center;
+    width: 250px;
+  }
+
+  .itempeta p {
+    font-size: 1.2rem;
+    padding-top: 0.6rem;
+    text-align: center;
+    width: 250px;
+  }
+
+  .nilaipeta {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 6rem;
+    column-gap: 3rem;
+  }
+}
+
+/* ************************
+/*todo BELOW 704px (Smaller tablets) */
+/************************* 704 */
+@media (max-width: 44em) {
+  /**************************/
+  /*! hero */
+  /**************************/
+  .hero {
+    display: flex;
+    flex-direction: column-reverse;
+    /* margin: 0; */
+    padding: 7rem 5rem 7rem 5rem;
+    gap: 3.2rem;
+  }
+
+  .heroleft p {
+    font-size: 1.2rem;
+  }
+
+  .heroleft h1 {
+    font-size: 4rem;
+  }
+
+  /*******************/
+  /* choose */
+  /******************/
+  .choosecontainer {
+    margin: 0 5rem 12rem 5rem;
+  }
+
+  .containerchooseus h1 {
+    font-size: 4rem;
+  }
+
+  .cardofchooseus {
+    margin: 2.4rem 0;
+  }
+
+  .cardchoose {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cardchoose p {
+    font-size: 1.8rem;
+    margin-top: 2.4rem;
+    text-align: justify;
+  }
+
+  .angkerchoose a {
+    font-size: 1.5rem;
+  }
+
+  .cardofchooseus {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    gap: 6.4rem;
+    margin: 3.2rem 0;
+  }
+
+  /*******************/
+  /* 6 icon */
+  /******************/
+
+  .cardchoose {
+    /* display: flex; */
+    /* flex-direction: row; */
+  }
+
+  .cardofneedtowin {
+    /* justify-content: center; */
+    grid-template-columns: repeat(1, 1fr);
+    gap: 6.4rem;
+    margin: 3.2rem 0;
+  }
+
+  .cardofneed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .needtowin {
+    margin: 7rem 5rem 12rem 5rem;
+  }
+
+  .needtowin h1 {
+    font-size: 3rem;
+  }
+
+  .cardchoose p {
+    font-size: 1.2rem;
+    margin-top: 2.4rem;
+    text-align: justify;
+  }
+
+  /*******************/
+  /* banner-peta */
+  /******************/
+
+  .bannerpeta {
+    padding: 7rem 5rem 7rem 5rem;
+  }
+
+  .imgpeta {
+    padding: 12rem 0;
+    display: flex;
+  }
+
+  .imgpeta img {
+    width: 40rem;
+    filter: invert(100%);
+  }
+
+  .peta h1 {
+    font-size: 4rem;
+  }
+
+  .itempeta h2 {
+    font-size: 4rem;
+    padding-bottom: 1.2rem;
+    border-bottom: solid 1px;
+    text-align: center;
+    width: 300px;
+  }
+
+  .itempeta h3 {
+    padding-top: 1.2rem;
+    font-size: 2.4rem;
+    text-align: center;
+    width: 250px;
+  }
+
+  .itempeta p {
+    font-size: 1.2rem;
+    padding-top: 0.6rem;
+    text-align: center;
+    width: 250px;
+  }
+
+  .nilaipeta {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 6rem;
+    column-gap: 3rem;
+  }
+}
+
+/**************************/
+/*todo BELOW 544px (Phones) */
+/**************************/
+@media screen and (max-width: 34em) {
+  /*! hero */
+  /**************************/
+  .hero {
+    display: flex;
+    flex-direction: column-reverse;
+    /* margin: 0; */
+    padding: 0 0;
+    margin: 7rem 3rem 7rem 3rem;
+    gap: 3.2rem;
+  }
+
+  .heroleft p {
+    font-size: 1.2rem;
+  }
+
+  .heroleft h1 {
+    font-size: 4rem;
+  }
+
+  /*******************/
+  /* choose */
+  /******************/
+  .choosecontainer {
+    margin: 0 3rem 12rem 3rem;
+  }
+
+  .containerchoose-us h1 {
+    font-size: 3.2rem;
+  }
+
+  .cardofchooseus {
+    margin: 2.4rem 0;
+  }
+
+  .cardchoose {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cardchoose p {
+    font-size: 1.8rem;
+    margin-top: 2.4rem;
+    text-align: justify;
+  }
+
+  .angkerchoose a {
+    font-size: 1.5rem;
+  }
+
+  .cardofchooseus {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    gap: 6.4rem;
+    margin: 3.2rem 0;
+  }
+
+  /*******************/
+  /* 6 icon */
+  /******************/
+
+  .card-choose {
+    /* display: flex; */
+    /* flex-direction: row; */
+  }
+
+  .cardofneedtowin {
+    /* justify-content: center; */
+    grid-template-columns: repeat(1, 1fr);
+    gap: 6.4rem;
+    margin: 3.2rem 0;
+  }
+
+  .cardofneed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .needtowin {
+    margin: 7rem 3rem 12rem 3rem;
+  }
+
+  .needtowin h1 {
+    font-size: 3rem;
+  }
+
+  .cardchoose p {
+    font-size: 1.2rem;
+    margin-top: 2.4rem;
+    text-align: justify;
+  }
+
+  /*******************/
+  /* banner-peta */
+  /******************/
+
+  .bannerpeta {
+    padding: 7rem 3rem 7rem 3rem;
+  }
+
+  .imgpeta {
+    padding: 12rem 0;
+    display: flex;
+  }
+
+  .imgpeta img {
+    width: 25rem;
+    filter: invert(100%);
+  }
+
+  .peta h1 {
+    font-size: 4rem;
+  }
+
+  .itempeta h2 {
+    font-size: 4rem;
+    padding-bottom: 1.2rem;
+    border-bottom: solid 1px;
+    text-align: center;
+    width: 300px;
+  }
+
+  .itempeta h3 {
+    padding-top: 1.2rem;
+    font-size: 2.4rem;
+    text-align: center;
+    width: 250px;
+  }
+
+  .itempeta p {
+    font-size: 1.2rem;
+    padding-top: 0.6rem;
+    text-align: center;
+    width: 250px;
+  }
+
+  .nilaipeta {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 6rem;
+    column-gap: 3rem;
+  }
+}
+
+/************************************************/
+
+/***********************************/
+/* HEader */
+/***********************************/
+
+.containerNavbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2.4rem 5rem 2rem 5rem;
+  /* margin: 1.2rem 0 1.2rem 0; */
+  background-color: white;
+}
+
+.logoImg img {
+  width: 20rem;
+}
+
+.linkNav {
+  display: flex;
+  gap: 3.2rem;
+  /* margin-top: 0.5rem; */
+}
+
+.linkNav a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin-top: 1.2rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #7db6f9;
+}
+
+.linkNav a:link,
+.linkNav a:visited {
+  color: #7db6f9;
+}
+
+.linkNav a:hover,
+.linkNav a:active {
+  color: #56a2fa;
+  text-decoration: underline;
+}
+
+.btnNav {
+  margin-top: 1.2rem;
+}
+
+.btnNav a {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.btnNav a:hover,
+.btnNav a:active {
+  background: linear-gradient(45deg, #00dfe5, #5f3beebe);
+  /* -webkit-background-clip: text; */
+  /* -webkit-text-fill-color: transparent; */
+}
+
+.btnNav a:link,
+.btnNav a:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #fff;
+  background-image: linear-gradient(45deg, #00dfe5, #5f3bee);
+}
+
+.btnNav a:hover,
+.btnNav a:active {
+  background-image: linear-gradient(45deg, #00dde5b9, #5f3beebe);
+}
+
+/***********************************/
+/* Footer */
+/***********************************/
+
+.containerFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2.4rem;
+    background-color: white;
+    padding: 3.2rem 5rem;
+}
+
+.imgFooter img{
+    height: 5rem;
+}
+
+.linkFooter{
+    display: flex;
+    gap: 3.2rem;
+    margin-top: 1.2rem;  
+}
+
+.linkFooter a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    
+}
+
+.linkFooter a:link,
+.linkFooter a:visited {
+  color: #7db6f9;
+}
+
+.linkFooter a:hover,
+.linkFooter a:active {
+  color: #56a2fa;
+  text-decoration: underline;
+}
+
+.iconFooter{
+    display: flex;
+    gap: 3.2rem;
+}
+
+.iconFooter img{
+    height: 3.5rem;
+    transition: transform 0.3s ease;
+}
+
+.iconFooter img:link,
+.iconFooter img:visited {
+  color: #7db6f9;
+}
+
+.iconFooter img:hover,
+.iconFooter img:active {
+  transform: scale(1.1);
+  color: #56a2fa;
+  text-decoration: underline;
+}
+
+/**************************/
+/*todo BELOW 1344px (Smaller desktops) */
+/**************************/
+@media (max-width: 84em) {
+   
+}
+
+/**************************/
+/*todo BELOW 1200px (Landscape Tablets) */
+/* ************************ 1345 */
+@media (max-width: 75em) {
+  
+}
+
+/**************************/
+/*todo BELOW 944px (Tablets) */
+/************************** 945*/
+@media (max-width: 59em) {
+  .containerFooter{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 2.4rem;
+      background-color: white;
+      padding: 3.2rem 0;
+      align-items: center;
+  }
+}
+
+/* ************************
+  /*todo BELOW 704px (Smaller tablets) */
+/************************* 704 */
+@media (max-width: 44em) {
+  .containerFooter{
+   
+    align-items: center;
+}
+  .logoImg{
+     display: none;
+  }
+
+  .containerNavbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btnNav {
+      margin-bottom: 1.2rem;
+      display: none;
+  }
+}
+
+/**************************/
+/*todo BELOW 544px (Phones) */
+/**************************/
+@media screen and (max-width: 34em) {
+  .containerFooter{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+}
+  .btnNav{
+      display: none;
+  }
+  .iconFooter{
+      display: flex;
+      gap: 1.2rem;
+  }
+}
