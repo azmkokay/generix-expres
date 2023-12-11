@@ -10,6 +10,16 @@ export const metadata = {
 export default function About() {
   return (
     <>
+      <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta
+          name="About Generix Express"
+          content="Generix Express is a leading name in the global logistics industry, dedicated to providing unparalleled shipping solutions. With a commitment to excellence, we specialize in delivering cargo seamlessly through land, sea, and air, connecting businesses and individuals across continents. Our experienced team ensures the safe and timely transportation of goods, utilizing state-of-the-art technology and a modern fleet. Generix Express takes pride in its award-winning service, recognized for innovation and reliability. With a strategic presence in over 100 countries, we offer a global network that facilitates efficient shipping and accessibility to diverse markets. As your trusted partner in logistics, Generix Express is poised to exceed expectations and drive success in your global shipping endeavors."
+        />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </head>
       <body>
         <header className={Styles.containerNavbar}>
           <div className={Styles.logoImg}>
