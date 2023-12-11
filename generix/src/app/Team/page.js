@@ -1,14 +1,13 @@
 import Styles from "./team.module.css";
 import Link from "next/link";
-import Image from 'next/image'
-
+import Image from "next/image";
 
 export default function Team() {
   return (
     <body>
       <header className={Styles.containerNavbar}>
         <div className={Styles.logoImg}>
-          <img src="./logo navbar.png" alt="" />
+          <img src="./logo navbar.png" alt="logo" />
         </div>
         <nav className={Styles.linkNav}>
           <Link href="/">Home</Link>
@@ -30,66 +29,66 @@ export default function Team() {
 
       <section className={Styles.containerteam}>
         <div className={Styles.itemcontectimg}>
-          <img src="./team1.jpg" alt="" />
+          <img src="./team1.jpg" alt="team1" />
           <h2>Adrian Johnson</h2>
           <p>Development Team</p>
           <div className={Styles.linkteam}>
             <a href="">
-              <img src="./linkin-kotak.svg" alt="" />
+              <img src="./linkin-kotak.svg" alt="linkin" />
             </a>
             <a href="">
-              <img src="./instagram.svg" alt="" />
+              <img src="./instagram.svg" alt="instagram" />
             </a>
             <a href="">
-              <img src="./whatsapp.svg" alt="" />
+              <img src="./whatsapp.svg" alt="whatsapp" />
             </a>
             <a href="">
-              <img src="./link.svg" alt="" />
+              <img src="./link.svg" alt="link" />
             </a>
           </div>
         </div>
         <div className={Styles.itemcontectimg}>
-          <img src="./team2.png" alt="" />
+          <img src="./team2.png" alt="team2" />
           <h2>Elena Rodriguez</h2>
           <p>Content Team</p>
           <div className={Styles.linkteam}>
             <a href="">
-              <img src="./linkin-kotak.svg" alt="" />
+              <img src="./linkin-kotak.svg" alt="linkin" />
             </a>
             <a href="">
-              <img src="./instagram.svg" alt="" />
+              <img src="./instagram.svg" alt="instagram" />
             </a>
             <a href="">
-              <img src="./whatsapp.svg" alt="" />
+              <img src="./whatsapp.svg" alt="whatsapp" />
             </a>
             <a href="">
-              <img src="./link.svg" alt="" />
+              <img src="./link.svg" alt="link" />
             </a>
           </div>
         </div>
         <div className={Styles.itemcontectimg}>
-          <img src="./team3.png" alt="" />
+          <img src="./team3.png" alt="team3" />
           <h2>William Chen</h2>
           <p>Management Team</p>
           <div className={Styles.linkteam}>
             <a href="">
-              <img src="./linkin-kotak.svg" alt="" />
+              <img src="./linkin-kotak.svg" alt="linkin" />
             </a>
             <a href="">
-              <img src="./instagram.svg" alt="" />
+              <img src="./instagram.svg" alt="instagram" />
             </a>
             <a href="">
-              <img src="./whatsapp.svg" alt="" />
+              <img src="./whatsapp.svg" alt="whatsapp" />
             </a>
             <a href="">
-              <img src="./link.svg" alt="" />
+              <img src="./link.svg" alt="link" />
             </a>
           </div>
         </div>
       </section>
       <footer className={Styles.containerFooter}>
         <div className={Styles.imgFooter}>
-          <img src="./logo navbar.png" alt="" />
+          <img src="./logo navbar.png" alt="logo" />
         </div>
         <nav className={Styles.linkFooter}>
           <a href="/">Home</a>
@@ -99,22 +98,22 @@ export default function Team() {
         </nav>
         <div className={Styles.iconFooter}>
           <a href="#">
-            <img src="./instagram.svg" alt="" />
+            <img src="./instagram.svg" alt="instagram" />
           </a>
           <a href="#">
-            <img src="./linkin.svg" alt="" />
+            <img src="./linkin.svg" alt="linkin" />
           </a>
           <a href="#">
-            <img src="./pinterest.svg" alt="" />
+            <img src="./pinterest.svg" alt="pinterest" />
           </a>
           <a href="#">
-            <img src="./blogger.svg" alt="" />
+            <img src="./blogger.svg" alt="blogger" />
           </a>
           <a href="#">
-            <img src="./facebook.svg" alt="" />
+            <img src="./facebook.svg" alt="facebook" />
           </a>
           <a href="#">
-            <img src="./link.svg" alt="" />
+            <img src="./link.svg" alt="link" />
           </a>
         </div>
       </footer>

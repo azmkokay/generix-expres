@@ -7,7 +7,7 @@ export default function About() {
       <body>
         <header className={Styles.containerNavbar}>
           <div className={Styles.logoImg}>
-            <img src="./logo navbar.png" alt="" />
+            <img src="./logo navbar.png" alt="logo" />
           </div>
           <nav className={Styles.linkNav}>
             <Link href="/">Home</Link>
@@ -50,22 +50,22 @@ export default function About() {
           <h1>Get more info about us</h1>
           <div className={Styles.cardofabout}>
             <div className={Styles.cardabout}>
-              <img src="./bag office.svg" alt="" />
+              <img src="./bag office.svg" alt="bag-office" />
               <p>Team and company</p>
               <a href="">See More</a>
             </div>
             <div className={Styles.cardabout}>
-              <img src="./building.svg" alt="" />
+              <img src="./building.svg" alt="building" />
               <p>Generix branches</p>
               <a href="">See More</a>
             </div>
             <div className={Styles.cardabout}>
-              <img src="./award.svg" alt="" />
+              <img src="./award.svg" alt="award" />
               <p>Award and certification</p>
               <a href="">See More</a>
             </div>
             <div className={Styles.cardabout}>
-              <img src="./people.svg" alt="" />
+              <img src="./people.svg" alt="people" />
               <p>Official Clients</p>
               <a href="">See More</a>
             </div>
@@ -83,7 +83,7 @@ export default function About() {
         </section>
         <footer className={Styles.containerFooter}>
           <div className={Styles.imgFooter}>
-            <img src="./logo navbar.png" alt="" />
+            <img src="./logo navbar.png" alt="logo" />
           </div>
           <nav className={Styles.linkFooter}>
             <a href="/">Home</a>
@@ -93,22 +93,22 @@ export default function About() {
           </nav>
           <div className={Styles.iconFooter}>
             <a href="#">
-              <img src="./instagram.svg" alt="" />
+              <img src="./instagram.svg" alt="instagram" />
             </a>
             <a href="#">
-              <img src="./linkin.svg" alt="" />
+              <img src="./linkin.svg" alt="linkin" />
             </a>
             <a href="#">
-              <img src="./pinterest.svg" alt="" />
+              <img src="./pinterest.svg" alt="pinterest" />
             </a>
             <a href="#">
-              <img src="./blogger.svg" alt="" />
+              <img src="./blogger.svg" alt="blogger" />
             </a>
             <a href="#">
-              <img src="./facebook.svg" alt="" />
+              <img src="./facebook.svg" alt="facebook" />
             </a>
             <a href="#">
-              <img src="./link.svg" alt="" />
+              <img src="./link.svg" alt="link" />
             </a>
           </div>
         </footer>

@@ -6,7 +6,7 @@ export default function Service() {
     <body>
       <header className={Styles.containerNavbar}>
         <div className={Styles.logoImg}>
-          <img src="./logo navbar.png" alt="" />
+          <img src="./logo navbar.png" alt="logo" />
         </div>
         <nav className={Styles.linkNav}>
           <Link href="/">Home</Link>
@@ -15,7 +15,7 @@ export default function Service() {
           <Link href="/Service">Service</Link>
         </nav>
         <div className={Styles.btnNav}>
-          <a href="">Contact Us</a>
+          <a href="#">Contact Us</a>
         </div>
       </header>
       <section>
@@ -42,7 +42,7 @@ export default function Service() {
           </p>
         </div>
         <div className={Styles.imgspecialservice}>
-          <img src="./logistik-tata.jpg" alt="" />
+          <img src="./logistik-tata.jpg" alt="logistik" />
         </div>
       </section>
 
@@ -194,7 +194,7 @@ export default function Service() {
       </section>
       <footer className={Styles.containerFooter}>
         <div className={Styles.imgFooter}>
-          <img src="./logo navbar.png" alt="" />
+          <img src="./logo navbar.png" alt="logo" />
         </div>
         <nav className={Styles.linkFooter}>
           <a href="/">Home</a>
@@ -204,22 +204,22 @@ export default function Service() {
         </nav>
         <div className={Styles.iconFooter}>
           <a href="#">
-            <img src="./instagram.svg" alt="" />
+            <img src="./instagram.svg" alt="instagram" />
           </a>
           <a href="#">
-            <img src="./linkin.svg" alt="" />
+            <img src="./linkin.svg" alt="linkin" />
           </a>
           <a href="#">
-            <img src="./pinterest.svg" alt="" />
+            <img src="./pinterest.svg" alt="pinterest" />
           </a>
           <a href="#">
-            <img src="./blogger.svg" alt="" />
+            <img src="./blogger.svg" alt="blogger" />
           </a>
           <a href="#">
-            <img src="./facebook.svg" alt="" />
+            <img src="./facebook.svg" alt="facebook" />
           </a>
           <a href="#">
-            <img src="./link.svg" alt="" />
+            <img src="./link.svg" alt="link" />
           </a>
         </div>
       </footer>

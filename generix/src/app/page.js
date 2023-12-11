@@ -6,7 +6,7 @@ export default function Home() {
     <body>
       <header className={Styles.containerNavbar}>
         <div className={Styles.logoImg}>
-          <img src="./logo navbar.png" alt="" />
+          <img src="./logo navbar.png" alt="logo" />
         </div>
         <nav className={Styles.linkNav}>
           <Link href="/">Home</Link>
@@ -27,7 +27,7 @@ export default function Home() {
               <strong className={Styles.strong}>
                 logistics solution tailor
               </strong>
-              -made for
+              -made for{" "}
               <strong className={Styles.strong}>individual customer!</strong>
             </h1>
             <p>
@@ -58,7 +58,7 @@ export default function Home() {
             <h1>Why choose us?</h1>
             <div className={Styles.cardofchooseus}>
               <div className={Styles.cardchoose}>
-                <img src="./peapole.svg" alt="" />
+                <img src="./peapole.svg" alt="peapole" />
                 <h2>Top Team Generix</h2>
                 <p>
                   At Top Team Generix, our success is driven by our exceptional
@@ -81,7 +81,7 @@ export default function Home() {
                 </div>
               </div>
               <div className={Styles.cardchoose}>
-                <img src="./custumer.svg" alt="" />
+                <img src="./custumer.svg" alt="custumer" />
                 <h2>Costomer Suport</h2>
                 <p>
                   Our commitment to customer satisfaction sets us apart. At Top
@@ -104,7 +104,7 @@ export default function Home() {
                 </div>
               </div>
               <div className={Styles.cardchoose}>
-                <img src="./lable.svg" alt="" />
+                <img src="./lable.svg" alt="lable" />
                 <h2>Competitive Rate</h2>
                 <p>
                   We recognize the significance of offering competitive rates to
@@ -138,7 +138,7 @@ export default function Home() {
           </h1>
           <div className={Styles.cardofneedtowin}>
             <div className={Styles.cardofneed}>
-              <img src="./kapal.svg" alt="" />
+              <img src="./kapal.svg" alt="kapal" />
               <h2>Marine Cargo Services</h2>
               <p>
                 Our Marine Cargo Services deliver dependable and efficient
@@ -151,7 +151,7 @@ export default function Home() {
               </p>
             </div>
             <div className={Styles.cardofneed}>
-              <img src="./pesawat.svg" alt="" />
+              <img src="./pesawat.svg" alt="pesawat" />
               <h2>Air Cargo Services</h2>
               <p>
                 With our Air Cargo Services, we accelerate the delivery of your
@@ -164,7 +164,7 @@ export default function Home() {
               </p>
             </div>
             <div className={Styles.cardofneed}>
-              <img src="./cargo.svg" alt="" />
+              <img src="./cargo.svg" alt="cargo" />
               <h2>Inland Cargo Services</h2>
               <p>
                 Experience seamless inland logistics with our Inland Cargo
@@ -179,7 +179,7 @@ export default function Home() {
               </p>
             </div>
             <div className={Styles.cardofneed}>
-              <img src="./truk berat.svg" alt="" />
+              <img src="./truk berat.svg" alt="truk" />
               <h2>Heavy Equipment Services</h2>
               <p>
                 Rely on our Heavy Equipment Services for the transportation of
@@ -193,7 +193,7 @@ export default function Home() {
               </p>
             </div>
             <div className={Styles.cardofneed}>
-              <img src="./car.svg" alt="" />
+              <img src="./car.svg" alt="car" />
               <h2>car Shipping Services</h2>
               <p>
                 Enjoy a hassle-free car shipping experience with our dedicated
@@ -206,7 +206,7 @@ export default function Home() {
               </p>
             </div>
             <div className={Styles.cardofneed}>
-              <img src="./cargo ship.svg" alt="" />
+              <img src="./cargo ship.svg" alt="cargo" />
               <h2>Container Sea Cargo</h2>
               <p>
                 Choose our Container Sea Cargo services for efficient and
@@ -230,7 +230,7 @@ export default function Home() {
         </div>
         <div className={Styles.imgandtextpeta}>
           <div className={Styles.imgpeta}>
-            <img src="./world-map-with-flags.png" alt="" />
+            <img src="./world-map-with-flags.png" alt="world-map-with-flags" />
           </div>
           <div className={Styles.nilaipeta}>
             <div className={Styles.itempeta}>
@@ -272,7 +272,7 @@ export default function Home() {
       </section>
       <footer className={Styles.containerFooter}>
         <div className={Styles.imgFooter}>
-          <img src="./logo navbar.png" alt="" />
+          <img src="./logo navbar.png" alt="logo" />
         </div>
         <nav className={Styles.linkFooter}>
           <Link href="/">Home</Link>
@@ -282,22 +282,22 @@ export default function Home() {
         </nav>
         <div className={Styles.iconFooter}>
           <a href="#">
-            <img src="./instagram.svg" alt="" />
+            <img src="./instagram.svg" alt="instagram" />
           </a>
           <a href="#">
-            <img src="./linkin.svg" alt="" />
+            <img src="./linkin.svg" alt="linkin" />
           </a>
           <a href="#">
-            <img src="./pinterest.svg" alt="" />
+            <img src="./pinterest.svg" alt="pinterest" />
           </a>
           <a href="#">
-            <img src="./blogger.svg" alt="" />
+            <img src="./blogger.svg" alt="blogger" />
           </a>
           <a href="#">
-            <img src="./facebook.svg" alt="" />
+            <img src="./facebook.svg" alt="facebook" />
           </a>
           <a href="#">
-            <img src="./link.svg" alt="" />
+            <img src="./link.svg" alt="link" />
           </a>
         </div>
       </footer>
