@@ -4,8 +4,8 @@ import './globals.css'
 const rubik = Rubik({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Generix Export',
-  description: 'Explore the power of Generix Export, a cutting-edge solution for seamless data export to a global audience. Effortlessly share and distribute your data worldwide with Generix.',
+  title: 'Generix-Shipping',
+  description: 'Generix Shipping: Seamlessly export goods worldwide by sea, land, and air, with efficient logistics to 100+ countries.',
 }
 
 export default function RootLayout({ children }) {
