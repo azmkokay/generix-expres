@@ -1,6 +1,12 @@
 import Styles from "./service.module.css";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Global Freight Shipping",
+  description:
+    "Generix Express offers comprehensive global freight shipping services, ensuring efficient and secure transportation of your cargo across continents. From door-to-door delivery to customized logistics solutions, we cater to diverse shipping needs.",
+};
+
 export default function Service() {
   return (
     <body>

@@ -1,6 +1,11 @@
 import Styles from "./team.module.css";
 import Link from "next/link";
-import Image from "next/image";
+
+export const metadata = {
+  title: "Meet Our Dedicated Team at Generix Express",
+  description:
+    "At Generix Express, our success is driven by a team of dedicated professionals committed to excellence in global shipping. Our diverse and skilled team ensures seamless transportation services by land, sea, and air to fulfill your logistics needs. From our experienced drivers and shipping experts to our customer service representatives, each member plays a crucial role in delivering unparalleled service. We take pride in our collaborative approach, innovative solutions, and customer-centric focus, making Generix Express your trusted partner for worldwide shipping. Meet the faces behind our success and discover the expertise that powers your cargo delivery across the globe.",
+};
 
 export default function Team() {
   return (

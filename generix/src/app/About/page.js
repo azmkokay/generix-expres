@@ -1,6 +1,12 @@
 import Styles from "./about.module.css";
 import Link from "next/link";
 
+export const metadata = {
+  title: "About Generix Express",
+  description:
+    "Generix Express is a leading name in the global logistics industry, dedicated to providing unparalleled shipping solutions. With a commitment to excellence, we specialize in delivering cargo seamlessly through land, sea, and air, connecting businesses and individuals across continents. Our experienced team ensures the safe and timely transportation of goods, utilizing state-of-the-art technology and a modern fleet. Generix Express takes pride in its award-winning service, recognized for innovation and reliability. With a strategic presence in over 100 countries, we offer a global network that facilitates efficient shipping and accessibility to diverse markets. As your trusted partner in logistics, Generix Express is poised to exceed expectations and drive success in your global shipping endeavors.",
+};
+
 export default function About() {
   return (
     <>

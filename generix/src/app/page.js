@@ -1,6 +1,12 @@
 import Styles from "./page.module.css";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Welcome to Generix Express",
+  description:
+    "Generix Express specializes in comprehensive export/import shipping services, providing seamless shipping by land, sea and air to countries around the world. Explore our leading web site and discover our strategic locations around the world.",
+};
+
 export default function Home() {
   return (
     <body>
