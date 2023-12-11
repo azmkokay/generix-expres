@@ -32,7 +32,7 @@ export default function Home() {
             <Link href="/Service">Service</Link>
           </nav>
           <div className={Styles.btnNav}>
-            <a href="">Contact Us</a>
+            <a href="#">Contact Us</a>
           </div>
         </header>
         <section className={Styles.container}>
@@ -57,7 +57,7 @@ export default function Home() {
                 <li className={Styles.undecor}>
                   <a
                     className={`${Styles.mainnavlink} ${Styles.navcta}`}
-                    href="https://api.whatsapp.com/send/?phone=081293230213&text&type=phone_number&app_absent=0"
+                    href="#"
                     target="_blank"
                   >
                     Contact us
@@ -91,7 +91,7 @@ export default function Home() {
                   <div className={Styles.angkerchoose}>
                     <a
                       className={`${Styles.mainnavlinkchoose} ${Styles.navctachoose}`}
-                      href="https://api.whatsapp.com/send/?phone=081293230213&text&type=phone_number&app_absent=0"
+                      href="#"
                       target="_blank"
                     >
                       See More
@@ -114,7 +114,7 @@ export default function Home() {
                   <div className={Styles.angkerchoose}>
                     <a
                       className={`${Styles.mainnavlinkchoose} ${Styles.navctachoose}`}
-                      href="https://api.whatsapp.com/send/?phone=081293230213&text&type=phone_number&app_absent=0"
+                      href="#"
                       target="_blank"
                     >
                       See More
@@ -139,7 +139,7 @@ export default function Home() {
                   <div className={Styles.angkerchoose}>
                     <a
                       className={`${Styles.mainnavlinkchoose} ${Styles.navctachoose}`}
-                      href="https://api.whatsapp.com/send/?phone=081293230213&text&type=phone_number&app_absent=0"
+                      href="#"
                       target="_blank"
                     >
                       See More

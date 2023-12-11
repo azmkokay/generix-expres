@@ -32,7 +32,7 @@ export default function About() {
             <Link href="/Service">Service</Link>
           </nav>
           <div className={Styles.btnNav}>
-            <a href="">Contact Us</a>
+            <a href="Link">Contact Us</a>
           </div>
         </header>
         <section className={Styles.banerheroabout}>
@@ -68,22 +68,22 @@ export default function About() {
             <div className={Styles.cardabout}>
               <img src="./bag office.svg" alt="bag-office" />
               <p>Team and company</p>
-              <a href="">See More</a>
+              <a href="#">See More</a>
             </div>
             <div className={Styles.cardabout}>
               <img src="./building.svg" alt="building" />
               <p>Generix branches</p>
-              <a href="">See More</a>
+              <a href="#">See More</a>
             </div>
             <div className={Styles.cardabout}>
               <img src="./award.svg" alt="award" />
               <p>Award and certification</p>
-              <a href="">See More</a>
+              <a href="#">See More</a>
             </div>
             <div className={Styles.cardabout}>
               <img src="./people.svg" alt="people" />
               <p>Official Clients</p>
-              <a href="">See More</a>
+              <a href="#">See More</a>
             </div>
           </div>
         </section>
@@ -102,10 +102,10 @@ export default function About() {
             <img src="./logo navbar.png" alt="logo" />
           </div>
           <nav className={Styles.linkFooter}>
-            <a href="/">Home</a>
-            <a href="/About">About</a>
-            <a href="/Team">Team</a>
-            <a href="/Service">Service</a>
+            <Link href="/">Home</Link>
+            <Link href="/About">About</Link>
+            <Link href="/Team">Team</Link>
+            <Link href="/Service">Service</Link>
           </nav>
           <div className={Styles.iconFooter}>
             <a href="#">

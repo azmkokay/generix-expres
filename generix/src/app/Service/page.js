@@ -215,10 +215,10 @@ export default function Service() {
             <img src="./logo navbar.png" alt="logo" />
           </div>
           <nav className={Styles.linkFooter}>
-            <a href="/">Home</a>
-            <a href="/About">About</a>
-            <a href="/Team">Team</a>
-            <a href="/Service">Service</a>
+            <Link href="/">Home</Link>
+            <Link href="/About">About</Link>
+            <Link href="/Team">Team</Link>
+            <Link href="/Service">Service</Link>
           </nav>
           <div className={Styles.iconFooter}>
             <a href="#">
