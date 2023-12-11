@@ -10,16 +10,6 @@ export const metadata = {
 export default function Home() {
   return (
     <>
-      <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta
-          name="Welcome to Generix Express"
-          content="Generix Express specializes in comprehensive export/import shipping services, providing seamless shipping by land, sea and air to countries around the world. Explore our leading web site and discover our strategic locations around the world."
-        />
-
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      </head>
       <body>
         <header className={Styles.containerNavbar}>
           <div className={Styles.logoImg}>

@@ -12,7 +12,7 @@
 .heroservice {
   display: flex;
   height: 63rem;
-  padding: 0 5rem;
+  padding: 0 7rem;
   gap: 3.2rem;
 }
 
@@ -39,7 +39,7 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 5rem;
   justify-self: center;
-  padding: 1.2rem 250px;
+  padding: 1.2rem 10rem;
   margin: 5rem 0;
 }
 
@@ -62,7 +62,7 @@
 
 .infoabout {
   margin: 8rem 0;
-  padding: 0 20rem;
+  padding: 0 10rem;
 }
 
 .infoabout h1 {
@@ -109,7 +109,7 @@
 /* about contact */
 /******************/
 .aboutcontact {
-  padding: 0 20rem;
+  padding: 0 10rem;
   margin-bottom: 6rem;
   display: flex;
   /* flex-direction: column; */

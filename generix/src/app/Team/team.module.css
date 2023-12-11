@@ -64,6 +64,25 @@
   filter: invert(25%);
 }
 
+.linkteam  img{
+  width: 4rem;
+  height: 4rem;
+  transition: transform 0.3s ease;
+  filter: invert(25%);
+}
+
+.linkteam  img:link,
+.linkteam  img:visited {
+color: #7db6f9;
+}
+
+.linkteam  img:hover,
+.linkteam  img:active {
+transform: scale(1.1);
+color: #56a2fa;
+text-decoration: underline;
+}
+
 /**************************/
 /*todo BELOW 1344px (Smaller desktops) */
 /**************************/
@@ -168,6 +187,7 @@
   .containerteam div h2 {
     text-align: center;
     font-size: 3.2rem;
+    padding-top: 1.2rem;
   }
 
   .containerteam div p {

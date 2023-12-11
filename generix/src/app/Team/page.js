@@ -10,16 +10,6 @@ export const metadata = {
 export default function Team() {
   return (
     <>
-      <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta
-          name="Meet Our Dedicated Team at Generix Express"
-          content="At Generix Express, our success is driven by a team of dedicated professionals committed to excellence in global shipping. Our diverse and skilled team ensures seamless transportation services by land, sea, and air to fulfill your logistics needs. From our experienced drivers and shipping experts to our customer service representatives, each member plays a crucial role in delivering unparalleled service. We take pride in our collaborative approach, innovative solutions, and customer-centric focus, making Generix Express your trusted partner for worldwide shipping. Meet the faces behind our success and discover the expertise that powers your cargo delivery across the globe."
-        />
-
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      </head>
       <body>
         <header className={Styles.containerNavbar}>
           <div className={Styles.logoImg}>

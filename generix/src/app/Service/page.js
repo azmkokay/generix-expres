@@ -10,16 +10,6 @@ export const metadata = {
 export default function Service() {
   return (
     <>
-      <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta
-          name="Global Freight Shipping"
-          content="Generix Express offers comprehensive global freight shipping services, ensuring efficient and secure transportation of your cargo across continents. From door-to-door delivery to customized logistics solutions, we cater to diverse shipping needs."
-        />
-
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      </head>
       <body>
         <header className={Styles.containerNavbar}>
           <div className={Styles.logoImg}>

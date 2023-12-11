@@ -64,7 +64,7 @@
   display: grid;
   place-items: center;
   /* margin: 0; */
-  padding: 23rem 15rem 15rem 15rem;
+  padding: 23rem 7rem 15rem 7rem;
   gap: 3.2rem;
   /* background-color: #f5fcff; */
   grid-template-columns: repeat(2, 1fr);
@@ -109,7 +109,7 @@
 }
 
 .choosecontainer {
-  margin: 0 15rem 12rem 15rem;
+  margin: 0 7rem 12rem 7rem;
   padding: 6rem 0;
 }
 
@@ -172,7 +172,7 @@
 /******************/
 
 .needtowin {
-  margin: 0 15rem 150px 15rem;
+  margin: 0 7rem 150px 7rem;
 }
 
 .cardofneedtowin {
@@ -217,7 +217,7 @@
 .bannerpeta {
   color: white;
   background-color: #7db6f9;
-  padding: 100px 15rem 100px 15rem;
+  padding: 100px 7rem 100px 7rem;
 }
 
 .peta p {
