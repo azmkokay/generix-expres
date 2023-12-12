@@ -56,7 +56,7 @@ export default function Home() {
               </ul>
             </div>
             <div className={Styles.heroright}>
-              <img src="./ilustrator-expor - copy (2).png" alt="personal picture" />
+              <img src="./ilustrator-expor - Copy (2).png" alt="personal picture" />
             </div>
           </section>
 
