@@ -13,7 +13,7 @@ export default function Home() {
       <body>
         <header className={Styles.containerNavbar}>
           <div className={Styles.logoImg}>
-            <img src="./logo navbar.png" alt="logo" />
+            <img src="./logo navbar (1).png" alt="logo" />
           </div>
           <nav className={Styles.linkNav}>
             <Link href="/">Home</Link>
@@ -56,7 +56,7 @@ export default function Home() {
               </ul>
             </div>
             <div className={Styles.heroright}>
-              <img src="./ilustrator-expor.png" alt="personal picture" />
+              <img src="./ilustrator-expor - copy (2).png" alt="personal picture" />
             </div>
           </section>
 
@@ -240,7 +240,7 @@ export default function Home() {
           <div className={Styles.imgandtextpeta}>
             <div className={Styles.imgpeta}>
               <img
-                src="./world-map-with-flags.png"
+                src="./world-map-with-flags (1).png"
                 alt="world-map-with-flags"
               />
             </div>
@@ -284,7 +284,7 @@ export default function Home() {
         </section>
         <footer className={Styles.containerFooter}>
           <div className={Styles.imgFooter}>
-            <img src="./logo navbar.png" alt="logo" />
+            <img src="./logo navbar (1).png" alt="logo" />
           </div>
           <nav className={Styles.linkFooter}>
             <Link href="/">Home</Link>
