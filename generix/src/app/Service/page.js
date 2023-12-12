@@ -13,7 +13,7 @@ export default function Service() {
       <body>
         <header className={Styles.containerNavbar}>
           <div className={Styles.logoImg}>
-            <img src="./logo navbar.png" alt="logo" />
+            <img src="./logo navbar (1).png" alt="logo" />
           </div>
           <nav className={Styles.linkNav}>
             <Link href="/">Home</Link>
@@ -49,7 +49,7 @@ export default function Service() {
             </p>
           </div>
           <div className={Styles.imgspecialservice}>
-            <img src="./logistik-tata.jpg" alt="logistik" />
+            <img src="./logistik-tata (1).jpg" alt="logistik" />
           </div>
         </section>
 
@@ -116,84 +116,84 @@ export default function Service() {
           <div className={Styles.gallery}>
             <figure className={Styles.galleryitem}>
               <img
-                src="/gallery-1.jpg"
+                src="/gallery-1 (1).jpg"
                 alt="Photo of beautifully
           arranged food"
               />
             </figure>
             <figure className={Styles.galleryitem}>
               <img
-                src=".//gallery-2.jpg"
+                src=".//gallery-2 (1).jpg"
                 alt="Photo of beautifully
           arranged food"
               />
             </figure>
             <figure className={Styles.galleryitem}>
               <img
-                src="./gallery-3.jpg"
+                src="./gallery-3 (1).jpg"
                 alt="Photo of beautifully
           arranged food"
               />
             </figure>
             <figure className={Styles.galleryitem}>
               <img
-                src="./gallery-4.jpg"
+                src="./gallery-4 (1).jpg"
                 alt="Photo of beautifully
           arranged food"
               />
             </figure>
             <figure className={Styles.galleryitem}>
               <img
-                src="./gallery-5.jpg"
+                src="./gallery-5 (1).jpg"
                 alt="Photo of beautifully
           arranged food"
               />
             </figure>
             <figure className={Styles.galleryitem}>
               <img
-                src="./gallery-6.jpg"
+                src="./gallery-6 (1).jpg"
                 alt="Photo of beautifully
           arranged food"
               />
             </figure>
             <figure className={Styles.galleryitem}>
               <img
-                src="./gallery-7.jpg"
+                src="./gallery-7 (1).jpg"
                 alt="Photo of beautifully
           arranged food"
               />
             </figure>
             <figure className={Styles.galleryitem}>
               <img
-                src="./gallery-8.jpg"
+                src="./gallery-8 (1).jpg"
                 alt="Photo of beautifully
           arranged food"
               />
             </figure>
             <figure className={Styles.galleryitem}>
               <img
-                src="./gallery-9.jpg"
+                src="./gallery-9 (1).jpg"
                 alt="Photo of beautifully
           arranged food"
               />
             </figure>
             <figure className={Styles.galleryitem}>
               <img
-                src="./gallery-10.jpg"
+                src="./gallery-10 (1).jpg"
                 alt="Photo of beautifully
           arranged food"
               />
             </figure>
             <figure className={Styles.galleryitem}>
               <img
-                src="./gallery-11.jpg"
+                src="./gallery-11 (1).jpg"
                 alt="Photo of beautifully
           arranged food"
               />
             </figure>
             <figure className={Styles.galleryitem}>
               <img
-                src="./gallery-12.jpg"
+                src="./gallery-12 (1).jpg"
                 alt="Photo of beautifully
           arranged food"
               />
@@ -202,7 +202,7 @@ export default function Service() {
         </section>
         <footer className={Styles.containerFooter}>
           <div className={Styles.imgFooter}>
-            <img src="./logo navbar.png" alt="logo" />
+            <img src="./logo navbar (1).png" alt="logo" />
           </div>
           <nav className={Styles.linkFooter}>
             <Link href="/">Home</Link>

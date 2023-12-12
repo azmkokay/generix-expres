@@ -13,7 +13,7 @@ export default function About() {
       <body>
         <header className={Styles.containerNavbar}>
           <div className={Styles.logoImg}>
-            <img src="./logo navbar.png" alt="logo" />
+            <img src="./logo navbar (1).png" alt="logo" />
           </div>
           <nav className={Styles.linkNav}>
             <Link href="/">Home</Link>
@@ -89,7 +89,7 @@ export default function About() {
         </section>
         <footer className={Styles.containerFooter}>
           <div className={Styles.imgFooter}>
-            <img src="./logo navbar.png" alt="logo" />
+            <img src="./logo navbar (1).png" alt="logo" />
           </div>
           <nav className={Styles.linkFooter}>
             <Link href="/">Home</Link>

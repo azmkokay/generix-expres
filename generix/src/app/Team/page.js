@@ -13,7 +13,7 @@ export default function Team() {
       <body>
         <header className={Styles.containerNavbar}>
           <div className={Styles.logoImg}>
-            <img src="./logo navbar.png" alt="logo" />
+            <img src="./logo navbar (1).png" alt="logo" />
           </div>
           <nav className={Styles.linkNav}>
             <Link href="/">Home</Link>
@@ -35,7 +35,7 @@ export default function Team() {
 
         <section className={Styles.containerteam}>
           <div className={Styles.itemcontectimg}>
-            <img src="./team1.jpg" alt="team1" />
+            <img src="./team1 (1).jpg" alt="team1" />
             <h2>Adrian Johnson</h2>
             <p>Development Team</p>
             <div className={Styles.linkteam}>
@@ -54,7 +54,7 @@ export default function Team() {
             </div>
           </div>
           <div className={Styles.itemcontectimg}>
-            <img src="./team2.png" alt="team2" />
+            <img src="./team2 (1).jpg" alt="team2" />
             <h2>Elena Rodriguez</h2>
             <p>Content Team</p>
             <div className={Styles.linkteam}>
@@ -73,7 +73,7 @@ export default function Team() {
             </div>
           </div>
           <div className={Styles.itemcontectimg}>
-            <img src="./team3.png" alt="team3" />
+            <img src="./team3 (1).jpg" alt="team3" />
             <h2>William Chen</h2>
             <p>Management Team</p>
             <div className={Styles.linkteam}>
@@ -94,7 +94,7 @@ export default function Team() {
         </section>
         <footer className={Styles.containerFooter}>
           <div className={Styles.imgFooter}>
-            <img src="./logo navbar.png" alt="logo" />
+            <img src="./logo navbar (1).png" alt="logo" />
           </div>
           <nav className={Styles.linkFooter}>
             <Link href="/">Home</Link>
